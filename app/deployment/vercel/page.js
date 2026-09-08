@@ -100,9 +100,9 @@ vercel --prod</code></pre>
         </li>
       </ul>
 
-      <h2>Deploying the Full VDR Application</h2>
+      <h2>Deploying the Full Accounting ERP Application</h2>
       <p>
-        Note that the full VDR ERP application requires a Python backend
+        Note that the full Accounting ERP application requires a Python backend
         (Jam.py server), so it cannot run solely on Vercel&apos;s edge functions as
         a static site. Options for the full app:
       </p>
@@ -116,7 +116,7 @@ vercel --prod</code></pre>
           point to the hosted backend API.
         </li>
         <li>
-          Self-host the Jam.py server and serve the VDR frontend from a CDN.
+          Self-host the Jam.py server and serve the Accounting ERP frontend from a CDN.
         </li>
       </ul>
 
