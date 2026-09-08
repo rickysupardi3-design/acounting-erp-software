@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+:root {
+  --foreground: #1a202c;
+  --background: #f8fafc;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  scroll-margin-top: 2rem;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #334155;
+}
+
+ul,
+ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #334155;
+}
+
+li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+code {
+  background: #f1f5f9;
+  color: #7c3aed;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.875em;
+}
+
+pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.875rem;
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #e2e8f0;
+}
+
+thead {
+  background: #f8fafc;
+}
+
+th {
+  font-weight: 600;
+  text-align: left;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+td {
+  padding: 0.6rem 0.85rem;
+  border: 1px solid #e2e8f0;
+  vertical-align: top;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 2rem 0;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
