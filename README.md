@@ -4,7 +4,7 @@ Documentation site for the **VDR ERP** system built on Jam.py, deployed to Verce
 
 ## Features
 
-Documentation for the VDR ERP application covering:
+Documentation for the Accounting ERP Software application covering:
 
 - **Overview** — System purpose, capabilities, and technical stack
 - **Getting Started** — Architecture and installation
