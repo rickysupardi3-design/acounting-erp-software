@@ -1,6 +1,6 @@
-# VDR Documentation
+# Accounting ERP Documentation
 
-Documentation site for the **VDR ERP** system built on Jam.py, deployed to Vercel via Next.js.
+Documentation site for the **ACCOUNTING ERP** system built on Jam.py, deployed to Vercel via Next.js.
 
 ## Features
 
