@@ -35,7 +35,7 @@ Install Command:  npm install</code></pre>
 npm i -g vercel
 
 # Deploy to production
-cd vdr-docs
+cd accpunting-erp-docs
 vercel --prod</code></pre>
 
       <h2>Option 3: Continuous Deployment (Git)</h2>
