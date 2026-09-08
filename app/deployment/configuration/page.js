@@ -3,7 +3,7 @@ export default function ConfigurationPage() {
     <div>
       <h1>Configuration Reference</h1>
       <p>
-        This page documents the configuration options for both the VDR
+        This page documents the configuration options for both the Accounting ERP
         application and the documentation site.
       </p>
 
@@ -53,9 +53,9 @@ export default function ConfigurationPage() {
         </tbody>
       </table>
 
-      <h2>VDR Application Configuration</h2>
+      <h2>Accounting ERP Application Configuration</h2>
       <p>
-        The VDR ERP application configuration lives inside{" "}
+        The Accounting ERP application configuration lives inside{" "}
         <code>task.dat</code> under these sections:
       </p>
 
